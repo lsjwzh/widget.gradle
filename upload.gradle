@@ -144,7 +144,6 @@ publishing {
     publications {
         MyPublication(MavenPublication) {
             artifact sourcesJar
-            artifact sourcesJar
             artifact("$buildDir/outputs/aar/$project.name-release.aar")
             groupId projGroupId
             artifactId projectName
