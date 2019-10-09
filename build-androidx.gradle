@@ -3,6 +3,7 @@
         maven { url 'https://maven.google.com' }
         jcenter()
         google()
+        maven { url 'https://jitpack.io' }
     }
     def ourDependencies = {
         classpath('com.android.tools.build:gradle:3.4.0') {
